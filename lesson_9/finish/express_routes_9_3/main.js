@@ -1,4 +1,7 @@
 "use strict";
+//type into browser URL bar...
+// http://localhost:3000/items/:vegetable
+//vegetable is sent as a parameter in items
 
 const port = 3000,
   express = require("express"),
