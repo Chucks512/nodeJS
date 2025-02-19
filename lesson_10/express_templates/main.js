@@ -1,5 +1,9 @@
 "use strict";
 
+// http://localhost:3000/
+// http://localhost:3000/items/:vegetable
+// http://localhost:3000/name/:thaps
+
 const express = require("express"),//import express
   app = express(),//use express template configuration
   homeController = require("./controllers/homeController"),//import homeController.js
