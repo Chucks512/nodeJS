@@ -1,6 +1,10 @@
 "use strict";
 
-// --- RUN "NODE START"
+// --- RUN "NPM START"
+// http://localhost:3000/
+// http://localhost:3000/items/:vegetable
+// http://localhost:3000/name/:thaps
+
 
 const express = require("express"),
   app = express(),
