@@ -28,8 +28,8 @@ app.use(
 app.use(express.json());//middleware for processing JSON
 app.use(homeController.logRequestPaths);
 
-app.get("/name", homeController.respondWithName);
-app.get("/items/:vegetable", homeController.sendReqParam);
+app.get("/name", homeController.respondWithName);//will evoke error
+app.get("/items/:vegetable", homeController.sendReqParam);//will actually
 
 app.post("/", (req, res) => {
   console.log(req.body);//log request body content
